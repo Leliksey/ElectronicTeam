@@ -1,0 +1,200 @@
+@media (max-width: 1080px) {
+    .infoblock-img {
+        right: -50px;
+    }
+}
+@media (max-width: 992px) {
+    .burger {
+        display: block;
+    }
+    .collapse .d-flex {
+        margin-left: 20px;
+    }
+    .navbar-info {
+        text-align: left;
+        margin-left: 20px;
+    }
+    .nav-link {
+        border-bottom: 1px solid lightgray;
+    }
+    .collapse  {
+        position: absolute;
+        z-index: 999;
+        background-color: white;
+        padding: 10px;
+        top: 50px;
+        left: 0;
+    }
+}
+@media (max-width: 900px) {
+    .infoblock-img {
+        right: 0px;
+    }
+    .navbar-info-title_big {
+        font-size: 16px;
+    }
+    .navbar-info-list_big {
+        font-size: 16px;
+    }
+    .form-wrapper-second .d-flex {
+        flex-direction: column;
+    }
+    .form-control_big::placeholder {
+        font-size: 15px;
+    }
+    .container-lg-custom-second {
+        padding: 100px 81px 120px;
+    }
+}
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 22px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    .card-body {
+        max-width: 380px;
+    }
+    .form-wrapper-withoutShadow .d-flex {
+        flex-direction: column;
+    }
+    .sign-wrapper-second {
+        transform: translateX(60%);
+    }
+    .infoblock-img {
+        width: calc(100px + (374 - 100) * ((100vw - 320px) / (1280 - 320)));
+    }
+}
+@media (max-width: 700px) {
+    .form-control_big {
+        max-width: 150px;
+    }
+    .form-control_big::placeholder {
+        font-size: 12px;
+    }
+    .navbar-info-title_big {
+        margin-right: 10px;
+    }
+    .log {
+        font-size: 12px;
+    }
+}
+@media (max-width: 576px) {
+    .infoblock-img {
+        position: unset;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .infoblock-logo {
+        display: none;
+    }
+    .card-body {
+        max-width: 100%;
+    }
+    .card-wrqpper {
+        padding-top: 10px;
+    }
+    .card-title {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .card-text {
+        font-size: 11px;
+    }
+    .form-wrapper {
+        flex-direction: column;
+    }
+    .form-wrapper .d-flex {
+        padding-top: 30px;
+        flex-direction: column;
+    }
+    .comLog-left {
+        flex-direction: column;
+    }
+    .btn-outline-success {
+    }
+    .navbar-info_left {
+        text-align: unset;
+    }
+    .sign-wrapper-second {
+        position: absolute;
+        width: 50%;
+        bottom: 60px;
+        text-align: center;
+        margin: 0 auto;
+        left: 0;
+        transform: translateX(50%);
+    }
+    .form-control_big {
+        max-width: 250px;
+    }
+    .requirements {
+        max-width: 250px;
+    }
+}
+@media (max-width: 420px) {
+    .card-title {
+        font-size: 16px;
+        line-height: normal;
+        margin: 0;
+    }
+    .card-text {
+        font-size: 10px;
+    }
+    .infoblock-title {
+        padding: 28px 0;
+    }
+    .navbar-info-title_big {
+        margin-right: 0;
+        padding: 0 20px;
+        font-size: 13px;
+    }
+    .navbar-info-list_big {
+        font-size: 13px;
+        text-align: center;
+    }
+    .form-control_big {
+        width: auto;
+    }
+    .btn-outline-success {
+        width: auto;
+    }
+    .form-wrapper .d-flex {
+        max-width: 130px;
+    }
+    .container-lg-custom-second {
+        padding: 50px 81px 130px;
+    }
+}
+@media (max-width: 420px) {
+    .container-lg-custom-second .form-wrapper {
+        padding: 15px 0;
+        /* width: max-content; */
+        margin: 0 -35px;
+    }
+    .sign-wrapper-second {
+        bottom: 35px;
+    }
+    .container-fluid-comments {
+        padding-top: 30px;
+    }
+    .container-lg-custom-second {
+        margin-top: 30px;
+    }
+    .main-text-border {
+        padding-top: 30px;
+    }
+    .main-description-padding {
+        padding-bottom: 30px;
+    }
+    .main-text {
+        padding-top: 30px;
+    }
+    .card-wrapper {
+        padding-top: 30px;
+    }
+    .main-description-pb {
+        padding-bottom: 30px;
+    }
+}

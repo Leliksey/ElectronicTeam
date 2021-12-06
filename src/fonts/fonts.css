@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("Helvetica/helvetica_cyr_boldoblique.ttf"), 
+    url("Helvetica/helvetica_cyr_oblique.ttf"),
+    url("Helvetica/helvetica_regular.otf");
+} 
+/* @font-face {
+    font-family: "ArialMT";
+    src: url("Arial/arialmt.ttf"), 
+    url("Arial/arial_bolditalicmt.ttf");
+} */
+ @font-face {
+    font-family: "PingFangSc";
+    src: url("PingFangSc/webfonts/PingFangSC.eot"), 
+    url("PingFangSc/webfonts/PingFangSC.woff"),
+    url("PingFangSc/webfonts/PingFangSCRegular.ttf");
+} 
+ @font-face {
+    font-family: "MicrosoftYaHei";
+    src: url("Microsoft-yahei/chinese.msyh.ttf");
+} 
+ @font-face {
+    font-family: "WenQuanYi";
+    src: url("Wqy-microhei/wqy-microhei.ttc");
+} 
+
+
+
+
+
+
+
+
+/* @font-face
+{
+    font-family: 'Helvetica';
+  src: url('helvetica_bold.otf'),
+      url('helvetica_boldoblique.otf') format('otf'),
+      url('helvetica_boldoblique.otf') format('otf'),
+      url('helvetica_cyr_oblique.ttf') format('ttf');
+}
+@font-face
+{
+    font-family: 'Arial';
+  src: url('PingFang SC Regular.eot'),
+      url('PingFang SC Regular.eot?#') format('embedded-opentype'),
+}
+@font-face
+{
+    font-family: 'PingFang SC Regular';
+  src: url('PingFang SC Regular.eot'),
+      url('PingFang SC Regular.eot?#') format('embedded-opentype'),
+      url('PingFang SC Regular.woff') format('woff'),
+      url('PingFang SC Regular.ttf') format('truetype');
+} */

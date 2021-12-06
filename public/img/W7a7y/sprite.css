@@ -1,0 +1,71 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-arrow {
+  background-image: url(sprite.png);
+  background-position: -324px -1024px;
+  width: 32px;
+  height: 32px;
+}
+.icon-avatar {
+  background-image: url(sprite.png);
+  background-position: 0px -1024px;
+  width: 324px;
+  height: 308px;
+}
+.icon-disqus {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 512px;
+  height: 512px;
+}
+.icon-envelope {
+  background-image: url(sprite.png);
+  background-position: -512px 0px;
+  width: 512px;
+  height: 512px;
+}
+.icon-heart {
+  background-image: url(sprite.png);
+  background-position: 0px -512px;
+  width: 512px;
+  height: 512px;
+}
+.icon-lock {
+  background-image: url(sprite.png);
+  background-position: -512px -512px;
+  width: 512px;
+  height: 512px;
+}
+.icon-question {
+  background-image: url(sprite.png);
+  background-position: -1024px 0px;
+  width: 512px;
+  height: 512px;
+}
+.icon-share {
+  background-image: url(sprite.png);
+  background-position: -1024px -512px;
+  width: 512px;
+  height: 512px;
+}
+/* <img className=""  style={{ backgroundImage: url(img/img/sprite.png),
+  backgroundPosition: -1024 + 'px' + 0 + 'px', 
+  width: 512 + 'px',
+  height: 512 + 'px'}} >
+</img> */
